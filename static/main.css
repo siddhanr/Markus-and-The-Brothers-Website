@@ -1,0 +1,547 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+html, body {
+	height: 100%;
+	font-family: raleway;
+}
+
+form {
+	font-family:arial;
+}
+
+.content {
+	background-color:whitesmoke; 
+}
+
+.menu-item {
+	font-size: 8px;
+	letter-spacing: 6px;
+}
+
+.navbar-brand{
+	letter-spacing:6px;
+	color:#fb8f07 !important;
+}
+
+.jumbo-form {
+	background-color:rgba(8,8,8,0.6);
+	height:100%;
+	color:orange;
+	padding:15px;
+}
+
+.small-screen-form {
+	background-color:black;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:#fb8f07;
+}
+
+.jumbo-form-header {
+	border-bottom:1px solid #fb8f07;
+	padding-left:10px;
+	margin-bottom: 10px;
+	text-align:center;
+}
+
+.jumbo-form-header h3{
+	margin-top:0px;
+	margin-bottom:5px;
+}
+
+.jumbo-row {
+	margin-top:75px;
+}
+
+.jumbo {
+	background-position: center; 
+	background-image: url("img/Markus2-127.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width:auto;
+	height: 100vh;
+}
+
+
+
+.jumbo-header {
+	text-align: center;
+}
+
+.jumbo-logo {
+	max-height:30vh;
+	height: auto;
+	margin-top:80px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jumbo-logo1 {
+	max-width:35%;
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sample-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*home page about start*/
+#homepage-about p {
+	text-align: right;
+}
+
+#homepage-about-content {
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+#homepage-about h2 {
+	border-right: 3px solid #fb8f07;
+	padding-right:10px;
+	text-align: right;
+}
+
+.split-content {
+	margin-right:0px;
+	width:80%;
+}
+
+.row-eq-height {
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+}
+
+#homepage-about-pic {
+	position:relative;
+	background-image:url("img/Markus-9.jpg");
+	background-size:cover;
+	width:100%;
+}
+
+.pic-text {
+	background-image:url("img/sample-roof-pic.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width:100%;
+	padding:0px;
+}
+
+.pic-text-container {
+	width:100%;
+	height:100%;
+	margin:0px;
+	background-color:rgba(0,0,0,0.8);
+	background-size:cover;
+	text-align:center;
+}
+
+.pic-text-container h1 {
+	color:#fb8f07;
+}
+
+.pic-text-container h4 {
+	color:whitesmoke;
+}
+
+.pic-text-container a {
+	color:whitesmoke;
+}
+
+#homepage-services {
+	background-color: whitesmoke;
+	width: 100%;
+}
+
+#homepage-services h2 {
+	border-left: 3px solid #fb8f07;
+	padding-left:10px;
+}
+.orange-divider {
+	border-color:#fb8f07;
+	margin-top:0px;
+	margin-bottom:3px;
+}
+
+#homepage-services-heading {
+	margin-bottom:0px;
+}
+
+.service {
+}
+
+.service-icon {
+	width:90%;
+    display: block;
+    margin:15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+#paint-roller {
+	transform: rotate(90deg);
+	width: 36%;
+	height: auto;
+}
+
+.service-container {
+	margin:20px;
+}
+
+.service-head {
+	background: linear-gradient(whitesmoke, whitesmoke);
+	margin:2px;
+	border-radius: 10px;
+}
+
+.footer {
+	background-color:Black;
+	width:100%;
+	color:LightGray;
+	display:flex;
+}
+
+.container-footer {
+	background-color:Black;
+	align-content: center;
+}
+
+.footer a {
+	color: #fb8f07;
+}
+
+.footer-end {
+	text-align: center;
+}
+
+.footer-logo {
+	width:60%;
+    display: block;
+    margin-top:15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.navbar-container {
+	border-bottom:0px;
+}
+
+.container-scroll {
+	display: inline;
+  	overflow-x: auto;
+}
+
+.container-scroll > .row {
+  	width: 100%; /* = 100% * 4/3 */
+}
+
+.navbar-toggle {
+	border: 0px;
+}
+
+.supplier-logo {
+	width:150px;
+	height: auto;
+}
+
+.marley-logo {
+	width:150px;
+	height: auto;
+	margin:10px;
+}
+
+.sitesafe-logo {
+	width:150px;
+	height:auto;
+	margin:10px;
+}
+
+.btrade-logo {
+	width:150px;
+	height: auto;
+	margin:10px;
+}
+
+.gib-logo {
+	width:100px;
+	height: auto;
+	margin:10px;
+}
+
+.footer-getq {
+	vertical-align: middle;
+}
+
+.medium-jumbotron {
+	height:50%;
+	background-position: center;
+	background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding:0px;
+}
+
+#jumbo-text{
+	color:#fb8f07;
+	background-color:rgba(0,0,0,0.3);
+	padding:20px;
+}
+
+#jumbo-text p {
+	color:whitesmoke;
+}
+
+.medium-jumbotron h1 {
+	font-size: 48px;
+}
+
+#aboutpage-jumbotron {
+	background-image:url("img/Markus2-45.jpg");
+}
+
+.opaque-layer {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	width:100%;
+	height:100%;
+	margin:0px;
+	background-color:rgba(0,0,0,0.7);
+	background-size:cover;
+	text-align:center;
+}
+
+.opaque-layer h1, .opaque-layer h2 {
+	color:#fb8f07;;
+}
+
+#aboutpage-content-other h4 {
+	color:whitesmoke;
+}
+
+#aboutpage-content-other a {
+	color:whitesmoke;
+}
+
+#aboutpage-content{
+	background-color:rgba(0,0,0,0.8);
+	color:whitesmoke;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+
+#aboutpage-content h1 {
+	font-size:48px;
+	color:#fb8f07;
+	margin-bottom:30px;
+}
+
+#aboutpage-content a {
+	color:#fb8f07;
+}
+
+#aboutpage-other {
+	background-image:url("img/Markus-1.jpg");
+	background-size: cover;
+	background-position: center;
+	padding:0px;
+}
+
+#aboutpage-content-other {
+	display:block;
+}
+
+#service-content {
+	padding:60px;
+	color:whitesmoke;
+	background-color:rgba(0,0,0,0.8);
+}
+
+#service-content h1 {
+	color:#fb8f07;
+}
+
+#servicepage-service-pic {
+	background: linear-gradient(LightGray, white);
+	margin-bottom:50px;
+}
+
+#servicepage-service-icon {
+	max-width:60%;
+} 
+
+#services-jumbotron {
+	background-image:url("img/Markus2-79.jpg");
+}
+
+#servicepage-services {
+	margin-top:50px;
+}
+
+#servicepage-services h2 {
+	border-left: 3px solid #fb8f07;
+	padding-left:10px;
+}
+
+#service-content h1 {
+	font-size:48px;
+	margin-bottom: 15px
+}
+
+.contact-content {
+	background-color:rgba(0,0,0,0.8);
+	padding-top:100px;
+	padding-bottom:100px;
+	color:white;
+}
+
+#contact-row {
+	margin-top:80px;
+}
+
+#contact-jumbotron {
+	background-image:url("img/Markus2-86.jpg");
+}
+
+#thankyou-background {
+	background-image:url("img/Markus2-86.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding:0px;
+}
+
+#thankyou-content {
+	height:100vh;
+	background-color:rgba(0,0,0,0.8);
+	text-align: center;
+}
+
+#thankyou-content h1 {
+	color:#fb8f07;
+}
+
+.footer-button{
+	color:black;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#watermark {
+	color:gray;
+	text-align: center;
+	font-size:7px;
+}
+
+.contact-content a {
+	color:#fb8f07;
+}
+
+/*small screen*/
+@media screen and (max-width: 767px) {
+	.footer-content {
+		text-align: center;
+	}
+
+	#homepage-about-pic {
+		display:none;
+	}
+
+	.split-content {
+		width:auto;
+	}
+
+	#homepage-about h2, #homepage-about p {
+		text-align: left;
+	}
+
+	#homepage-about h2 {
+		border-right:0px;
+		border-left: 3px solid #fb8f07;
+		padding-left:10px;
+	}
+
+}
+
+/*big screen*/
+@media screen and (min-width:768px) {
+	.footer-content {
+		margin-top:15px;
+	}
+
+	nav a:hover {
+		color: #fb8f07 !important;
+	}
+
+	.navbar-header a:hover {
+		border:0px;
+	}
+
+	.active a {
+		background-color: #222 !important;
+		border-bottom: 2px solid #fb8f07;
+		color:#fb8f07 !important;
+	}
+}
+
+@media screen and (min-width:900px) {
+	.small-screen-form {
+		display: none;
+	}	
+
+	.small-screen-logo {
+		display:none;
+	}
+
+	.jumbo-logo {
+		display:none;
+	}
+}
+
+@media screen and (max-width:900px) {
+	.jumbo-row {
+		display:none;
+	}
+
+	.jumbo-logo {
+		margin-top:80px;
+	}
+
+	.footer-content {
+		border-bottom:0.5px solid lightgray;
+	}
+
+	.footer-button{
+		margin-top:20px;
+	}
+}
+
+@media (min-width: 992px) {
+  .col-md-1-5 { width: 20%; }
+  .col-md-2-5 { width: 40%; }
+  .col-md-3-5 { width: 60%; }
+  .col-md-4-5 { width: 80%; }
+  .col-md-5-5 { width: 100%; }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-1-5 { width: 20%; }
+  .col-lg-2-5 { width: 40%; }
+  .col-lg-3-5 { width: 60%; }
+  .col-lg-4-5 { width: 80%; }
+  .col-lg-5-5 { width: 100%; }
+}
+
+
+
